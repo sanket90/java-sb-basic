@@ -14,17 +14,20 @@ public class HelloWorld {
 
 
 
-
+        HelloWorld h = new HelloWorld();
         int a = 10, b = 5;
 
-        swap(a, b);
+        h.swap(a, b);
+
+        System.out.println(a + " -- " + b);
     }
 
-    private static void swap(int a, int b) {
-        int temp;
-        temp = a;
+    public void swap(int a, int b) {
+        int temp = a;
         a = b;
         b = temp;
+
+        System.out.println(a + " -- " + b);
     }
 }
 
