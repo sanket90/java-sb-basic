@@ -7,3 +7,7 @@
 ## [Data Types](docs/03-datatypes.md)
 
 ## [Operators](docs/04-operators.md)
+
+## [Type Casting](docs/05-type-casting.md)
+
+## [String Class](docs/06-type-casting.md)

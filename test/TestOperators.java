@@ -53,9 +53,9 @@ public class TestOperators {
         Left Shift = 10*2^3 = 80
          */
 
-        System.out.println(Integer.toBinaryString(x));
-        System.out.println(Integer.toBinaryString(x>>2));
-        System.out.println(Integer.toBinaryString(x<<3));
+//        System.out.println(Integer.toBinaryString(x));
+//        System.out.println(Integer.toBinaryString(x>>2));
+//        System.out.println(Integer.toBinaryString(x<<3));
 
         //System.out.println("x>> " + (x>>2) + "     x = " + x);
         Assertions.assertEquals(x>>2, 2);
@@ -71,10 +71,10 @@ public class TestOperators {
 
         Zero prefix Right Shift =
          */
-        System.out.println(Integer.toBinaryString(60));
-        System.out.println(Integer.toBinaryString(y));
-        System.out.println(Integer.toBinaryString(y>>1));
-        System.out.println(Integer.toBinaryString(y>>>1));
+//        System.out.println(Integer.toBinaryString(60));
+//        System.out.println(Integer.toBinaryString(y));
+//        System.out.println(Integer.toBinaryString(y>>1));
+//        System.out.println(Integer.toBinaryString(y>>>1));
 
         //System.out.println("y>> " + (y>>1) + "     y = " + y);
         Assertions.assertEquals(y>>1, -30);

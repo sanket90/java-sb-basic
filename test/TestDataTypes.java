@@ -17,6 +17,8 @@ public class TestDataTypes {
         Byte b2 = b1;
 
         Assertions.assertEquals(b2, b1);
+
+        // x instanceof String
     }
 
     // TODO remaining tests for other DataTypes
